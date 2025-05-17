@@ -1,7 +1,9 @@
 {
   "name": "word-guessing-game",
-  
+  "homepage": "https://vinitrai.github.io/word-guessing-game",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
