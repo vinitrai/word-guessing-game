@@ -1,5 +1,5 @@
 {
-  "name": "vocabulory",
+  "name": "word-guessing-game",
   
   "scripts": {
     "start": "vite",
