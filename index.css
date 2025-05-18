@@ -182,7 +182,7 @@ body {
 .key {
   padding: 0.125em;
   border-radius: 6px;
-  font-size: clamp(1rem, 3vw, 1.25rem);
+  font-size: clamp(1.2rem, 3vw, 1.5rem);
   font-weight: 600;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
