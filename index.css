@@ -48,7 +48,6 @@ body {
   padding: 0 1em;
   width: 90%;
   max-width: 600px;
-
   margin: 0 auto;
 }
 
@@ -65,20 +64,17 @@ body {
 }
 
 .header-content>p {
-  font-size: clamp(1rem, 1.5vw, 1.6rem);
   font-size: clamp(0.9rem, 2.5vw, 1.4rem);
 }
 
 .game-section {
   margin-bottom: 0.125em;
-
 }
 
 /* Game banner */
 .game-banner {
   min-height: 60px;
   padding: 0.125em 0;
-
   text-align: center;
   font-family: "Bubblegum Sans", cursive;
   display: flex;
@@ -86,7 +82,6 @@ body {
   justify-content: center;
   align-items: center;
   gap: 4px;
-
 }
 
 .game-banner>h2 {
@@ -130,14 +125,12 @@ body {
   padding: 0.125em;
   font-weight: 600;
   text-align: center;
-
-  font-size: clamp(0.7rem, 1.8vw, 0.9rem);
+  font-size: clamp(0.9rem, 1.8vw, 1.1rem);
   border-radius: 5px;
 }
 
 .category>span.lost {
   opacity: 0.6;
-
 }
 
 /* Word display */
@@ -156,7 +149,6 @@ body {
 .letter {
   width: 24px;
   height: 24px;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -189,20 +181,16 @@ body {
 
 .key {
   padding: 0.125em;
-
   border-radius: 6px;
-  font-size: clamp(0.9rem, 3vw, 1.1rem);
+  font-size: clamp(1rem, 3vw, 1.25rem);
   font-weight: 600;
-
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-align: center;
   background-color: var(--color-button-keyboard);
   color: var(--color-border-farewell);
-
   width: 32px;
   height: 32px;
-  font-size: clamp(0.8rem, 2.5vw, 1rem);
 }
 
 .key:hover {
@@ -240,8 +228,7 @@ body {
   padding: 0.125em;
   transition: background 0.3s ease;
   font-family: "Bubblegum Sans", cursive;
-
-  font-size: clamp(0.9rem, 2.8vw, 1.1rem);
+  font-size: clamp(1rem, 2.8vw, 1.3rem);
 }
 
 .game-reset button:hover {
@@ -255,8 +242,7 @@ body {
   .word-section,
   .keyboard-section {
     margin-bottom: 0.5em;
-
-  }
+   }
 
   .header-content,
   .game-banner,
